@@ -3,6 +3,38 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+# History files
+.Rhistory
+.Rapp.history
+
+# Session Data files
+.RData
+.Ruserdata
+
+# Example code in package build process
+*-Ex.R
+
+# Output files from R CMD build
+/*.tar.gz
+
+# Output files from R CMD check
+/*.Rcheck/
+
+# RStudio files
+.Rproj.user/
+.Rproj.user/**
+
+# R workspace files
+.RDataTmp
+
+# R environment configuration
+Renviron.site
+Renviron
+
+# Packrat library for dependency management
+packrat/lib*
+packrat/src/
+
 # C extensions
 *.so
 
